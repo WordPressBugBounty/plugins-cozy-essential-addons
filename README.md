@@ -1,0 +1,1 @@
+# plugins-cozy-essential-addons
