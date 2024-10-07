@@ -1500,6 +1500,41 @@ function cozythemes_demo_importer_get_templates_lists($theme_slug)
                 )
             );
             break;
+        case "photolancer":
+            $demo_templates_lists = array(
+                'photolancer' => array(
+                    'title' => esc_html__('Photolancer', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('photolancer', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/photolancer/free/1/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/photolancer/free/1/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/photolancer/free/1/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/photolancer/free/1/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/photolancer/',
+                    'plugins' => ''
+                ),
+                'photolancer-pro' => array(
+                    'title' => esc_html__('Photolancer Pro', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('photolancer pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/photolancer/pro/1/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/photolancer/pro/1/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/photolancer/pro/1/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/photolancer/pro/1/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/photolancer-pro/',
+                    'plugins' => ''
+                ),
+            );
+            break;
         default:
             $demo_templates_lists = array();
     endswitch;
