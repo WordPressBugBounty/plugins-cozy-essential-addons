@@ -3,8 +3,8 @@ Contributors: CozyThemes
 Tags: portfolios, testimonials, teams, faqs, demo-importer
 Requires PHP: 7.3.0
 Requires at least: 5.9
-Tested up to: 6.6
-Stable tag: 1.2.27
+Tested up to: 6.7
+Stable tag: 1.2.28
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,11 @@ If you are developer you can extend the code as your requirement, find the sampl
 
 
 == Changelog ==
+= 1.2.28 - Nov 14, 2024 = 
+* Added: More demo importer for SaasLauncher 
+* Added: More demo importer for Modestra
+* Tested up to 6.7
+
 = 1.2.27 - Nov 04, 2024 = 
 * Added: demo importer for SaasLauncher
 

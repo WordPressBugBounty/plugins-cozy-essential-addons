@@ -16,7 +16,7 @@
  * Plugin Name:       Cozy Essential Addons
  * Plugin URI:        https://cozythemes.com/cozy-essential-addons
  * Description:       Cozy Essential Addons is the free WordPress plugin for Custom post type and provides basic skeletal for custom post type list.
- * Version:           1.2.27
+ * Version:           1.2.28
  * Author:            CozyThemes
  * Author URI:        https://cozythemes.com/
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if (!defined('WPINC')) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define('COZY_ESSENTIAL_ADDONS_VERSION', '1.2.27');
+define('COZY_ESSENTIAL_ADDONS_VERSION', '1.2.28');
 define('COZY_ESSENTIAL_ADDONS_PATH', plugin_dir_path(__FILE__));
 define('COZY_ESSENTIAL_ADDONS_URL', plugin_dir_url(__FILE__));
 define('COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL', COZY_ESSENTIAL_ADDONS_URL . 'includes/demos/');
