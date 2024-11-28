@@ -6,9 +6,9 @@
  * Categories: modestra-testimoials
  */
 $ct_patterns_media = array(
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/rating_star.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/member_1.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/member_2.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/rating_star.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/member_1.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/member_2.png',
 );
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"7rem","bottom":"8rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"backgroundColor":"primary-shade","layout":{"type":"constrained","contentSize":"1180px"}} -->

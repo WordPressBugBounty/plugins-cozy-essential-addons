@@ -6,10 +6,10 @@
  * Categories: saaslauncher
  */
 $ct_patterns_media = array(
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/saaslauncher/icon_button.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/saaslauncher/work_1.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/saaslauncher/work_3.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/saaslauncher/work_4.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/icon_button.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/work_1.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/work_3.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/work_4.png',
 );
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"cozy-essential-addons/saaslauncher-featured-content","name":"Featured Content"},"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->

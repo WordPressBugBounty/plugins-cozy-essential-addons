@@ -6,7 +6,7 @@
  * Categories: modestra-hero
  */
 $ct_patterns_media = array(
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/rocket.jpg',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/rocket.jpg',
 );
 ?>
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->

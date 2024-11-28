@@ -6,12 +6,12 @@
  * Categories: modestra-testimoials
  */
 $ct_patterns_media = array(
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/rating_star.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/member_1.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/member_2.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/member_3.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/member_4.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/member_5.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/rating_star.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/member_1.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/member_2.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/member_3.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/member_4.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/member_5.png',
 );
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"7rem","left":"0","right":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->

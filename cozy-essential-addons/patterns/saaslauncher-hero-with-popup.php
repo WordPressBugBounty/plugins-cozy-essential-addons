@@ -6,8 +6,8 @@
  * Categories: saaslauncher
  */
 $ct_patterns_media = array(
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/saaslauncher/play_icon.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/saaslauncher/launcher-dash.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/play_icon.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/launcher-dash.png',
 );
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"cozy-essential-addons/saaslauncher-hero-with-popup","name":"Header Large with Banner"},"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"gradient":"gradient-one","layout":{"type":"constrained","contentSize":"1180px"}} -->

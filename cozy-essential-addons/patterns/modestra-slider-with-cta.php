@@ -6,11 +6,11 @@
  * Categories: modestra-hero
  */
 $ct_patterns_media = array(
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/slider_1.jpg',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/slider_2.jpg',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/icon_1.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/icon_2.png',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/icon_3.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/slider_1.jpg',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/slider_2.jpg',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/icon_1.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/icon_2.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/icon_3.png',
 );
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->

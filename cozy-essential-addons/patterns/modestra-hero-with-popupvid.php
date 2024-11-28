@@ -6,8 +6,8 @@
  * Categories: modestra-hero
  */
 $ct_patterns_media = array(
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/hero_img_filter.jpg',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/play_icon.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/hero_img_filter.jpg',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/play_icon.png',
 );
 ?>
 <!-- wp:group {"metadata":{"categories":["modestra-hero"],"patternName":"modestra/hero-section-stats","name":"Hero Section with Stats Counter"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"120px"}},"border":{"bottom":{"color":"#e3e2f0","width":"1px"},"top":[],"right":[],"left":[]}},"gradient":"gradient-light","layout":{"type":"constrained","contentSize":"1180px"}} -->

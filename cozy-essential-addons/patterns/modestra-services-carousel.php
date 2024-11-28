@@ -6,10 +6,10 @@
  * Categories: services
  */
 $ct_patterns_media = array(
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/service_image_2.jpg',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/service_image_1.jpg',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/service_image_3.jpg',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/service_image_4.jpg',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/service_image_2.jpg',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/service_image_1.jpg',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/service_image_3.jpg',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/service_image_4.jpg',
 );
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"7rem","left":"0","right":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->

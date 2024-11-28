@@ -6,7 +6,7 @@
  * Categories: modestra
  */
 $ct_patterns_media = array(
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/popup_ads.png',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/popup_ads.png',
 );
 ?>
 <!-- wp:group {"layout":{"type":"constrained","contentSize":"100%"}} -->

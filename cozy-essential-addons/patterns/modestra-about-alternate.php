@@ -6,9 +6,9 @@
  * Categories: about
  */
 $ct_patterns_media = array(
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/about_21.jpg',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/about_22.jpg',
-    COZY_ESSENTIAL_ADDONS_URL . 'admin/images/modestra-assets/service_image_3.jpg',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/about_21.jpg',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/about_22.jpg',
+    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/service_image_3.jpg',
 );
 ?>
 <!-- wp:group {"metadata":{"categories":["about"],"patternName":"modestra/about-alternate-2","name":"About Us alternate Content 2"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"100px","bottom":"120px"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
