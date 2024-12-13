@@ -1718,7 +1718,144 @@ function cozythemes_demo_importer_get_templates_lists($theme_slug)
                     'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-11/',
                     'plugins' => ''
                 ),
+                'saaslauncher-pro-12' => array(
+                    'title' => esc_html__('Portfolio/Freelancer', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/12/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/12/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/12/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/12/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-12/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-13' => array(
+                    'title' => esc_html__('Photo Studio', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/13/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/13/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/13/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/13/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-13/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-14' => array(
+                    'title' => esc_html__('Digital Marketing Agency', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/14/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/14/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/14/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/14/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-14/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-15' => array(
+                    'title' => esc_html__('Chatbot', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/15/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/15/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/15/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/15/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-15/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-16' => array(
+                    'title' => esc_html__('Resume/Portfolio', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/16/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/16/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/16/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/16/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-16/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-17' => array(
+                    'title' => esc_html__('Medical/Healthcare', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/17/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/17/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/17/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/17/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-17/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-18' => array(
+                    'title' => esc_html__('Finance Service/Agency', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/18/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/18/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/18/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/18/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-18/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-19' => array(
+                    'title' => esc_html__('Charity/NON Profit', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/19/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/19/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/19/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/19/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-19/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-20' => array(
+                    'title' => esc_html__('Hotels/Resort', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/20/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/20/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/20/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/20/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-20/',
+                    'plugins' => ''
+                ),
+
             );
+
             break;
         case "modestra":
             $demo_templates_lists = array(
