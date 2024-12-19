@@ -1986,6 +1986,377 @@ function cozythemes_demo_importer_get_templates_lists($theme_slug)
                 ),
             );
             break;
+        case "jetnews-magazine":
+            $demo_templates_lists = array(
+                'jetnews-magazine' => array(
+                    'title' => esc_html__('Default', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/1/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/1/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/1/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/1/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-2' => array(
+                    'title' => esc_html__('Health Mag', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/2/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/2/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/2/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/2/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-2/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-3' => array(
+                    'title' => esc_html__('Travel Mag', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/3/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/3/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/3/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/3/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-3/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-4' => array(
+                    'title' => esc_html__('Beauty Blog', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/4/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/4/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/4/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/4/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-4/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-5' => array(
+                    'title' => esc_html__('Technology Mag', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/5/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/5/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/5/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/5/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-5/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-6' => array(
+                    'title' => esc_html__('News Magazine', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/6/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/6/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/6/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/6/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-6/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-7' => array(
+                    'title' => esc_html__('Minimal Blog', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/7/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/7/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/7/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/free/7/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-7/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro' => array(
+                    'title' => esc_html__('Default Pro', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/1/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/1/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/1/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/1/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-2' => array(
+                    'title' => esc_html__('Global News', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/2/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/2/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/2/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/2/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-2/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-3' => array(
+                    'title' => esc_html__('Global Mag', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/3/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/3/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/3/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/3/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-3/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-4' => array(
+                    'title' => esc_html__('Tech News', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/4/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/4/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/4/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/4/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-4/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-5' => array(
+                    'title' => esc_html__('NewsMagzin', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/5/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/5/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/5/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/5/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-5/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-6' => array(
+                    'title' => esc_html__('RightNews', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/6/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/6/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/6/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/6/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-6/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-7' => array(
+                    'title' => esc_html__('Classic News', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/7/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/7/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/7/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/7/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-7/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-8' => array(
+                    'title' => esc_html__('Classic Magazine', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/8/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/8/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/8/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/8/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-8/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-9' => array(
+                    'title' => esc_html__('MagazineVX', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/9/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/9/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/9/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/9/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-9/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-10' => array(
+                    'title' => esc_html__('MagazineVZ', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/10/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/10/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/10/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/10/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-10/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-11' => array(
+                    'title' => esc_html__('History News', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/11/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/11/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/11/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/11/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-11/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-12' => array(
+                    'title' => esc_html__('Gadget Blog', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/12/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/12/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/12/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/12/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-12/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-13' => array(
+                    'title' => esc_html__('Sport News', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/13/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/13/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/13/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/13/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-13/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-14' => array(
+                    'title' => esc_html__('Automotive', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/14/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/14/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/14/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/14/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-14/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-15' => array(
+                    'title' => esc_html__('Quick News', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/15/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/15/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/15/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/15/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-15/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-16' => array(
+                    'title' => esc_html__('Aqua News', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/16/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/16/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/16/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/16/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-16/',
+                    'plugins' => ''
+                ),
+                'jetnews-magazine-pro-17' => array(
+                    'title' => esc_html__('World News', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('jetnews-magazine pro', 'photography'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/17/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/17/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/17/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/jetnews-magazine/pro/17/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/jetnews-magazine-pro-17/',
+                    'plugins' => ''
+                ),
+            );
+            break;
         default:
             $demo_templates_lists = array();
     endswitch;
