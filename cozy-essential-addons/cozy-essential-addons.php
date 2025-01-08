@@ -16,7 +16,7 @@
  * Plugin Name:       Cozy Essential Addons
  * Plugin URI:        https://cozythemes.com/cozy-essential-addons
  * Description:       Cozy Essential Addons is the free WordPress plugin for Custom post type and provides basic skeletal for custom post type list.
- * Version:           1.2.37
+ * Version:           1.2.38
  * Author:            CozyThemes
  * Author URI:        https://cozythemes.com/
  * License:           GPL-2.0+
@@ -26,7 +26,7 @@
  */
 
 // If this file is called directly, abort.
-if (! defined('WPINC')) {
+if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
@@ -35,20 +35,19 @@ if (! defined('WPINC')) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define('COZY_ESSENTIAL_ADDONS_VERSION', '1.2.37');
-define('COZY_ESSENTIAL_ADDONS_PATH', plugin_dir_path(__FILE__));
-define('COZY_ESSENTIAL_ADDONS_URL', plugin_dir_url(__FILE__));
-define('COZY_ESSENTIAL_ADDONS_ASSETS_URL', 'https://assets.cozythemes.com/cozy-essential-addons/');
-define('COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL', 'https://assets.cozythemes.com/cozy-essential-addons/demos');
-define('COZY_ESSENTIAL_ADDONS_SCRIPT_PREFIX', (defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ? '' : ''));
+define( 'COZY_ESSENTIAL_ADDONS_VERSION', '1.2.38' );
+define( 'COZY_ESSENTIAL_ADDONS_PATH', plugin_dir_path( __FILE__ ) );
+define( 'COZY_ESSENTIAL_ADDONS_URL', plugin_dir_url( __FILE__ ) );
+define( 'COZY_ESSENTIAL_ADDONS_ASSETS_URL', 'https://assets.cozythemes.com/cozy-essential-addons/' );
+define( 'COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL', 'https://assets.cozythemes.com/cozy-essential-addons/demos' );
+define( 'COZY_ESSENTIAL_ADDONS_SCRIPT_PREFIX', ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '' ) );
 
 /**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-cozy-essential-addons-activator.php
  */
-function activate_cozy_essential_addons()
-{
-	require_once plugin_dir_path(__FILE__) . 'includes/class-cozy-essential-addons-activator.php';
+function activate_cozy_essential_addons() {
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-cozy-essential-addons-activator.php';
 	Cozy_Essential_Addons_Activator::activate();
 }
 
@@ -56,20 +55,19 @@ function activate_cozy_essential_addons()
  * The code that runs during plugin deactivation.
  * This action is documented in includes/class-cozy-essential-addons-deactivator.php
  */
-function deactivate_cozy_essential_addons()
-{
-	require_once plugin_dir_path(__FILE__) . 'includes/class-cozy-essential-addons-deactivator.php';
+function deactivate_cozy_essential_addons() {
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-cozy-essential-addons-deactivator.php';
 	Cozy_Essential_Addons_Deactivator::deactivate();
 }
 
-register_activation_hook(__FILE__, 'activate_cozy_essential_addons');
-register_deactivation_hook(__FILE__, 'deactivate_cozy_essential_addons');
+register_activation_hook( __FILE__, 'activate_cozy_essential_addons' );
+register_deactivation_hook( __FILE__, 'deactivate_cozy_essential_addons' );
 
 /**
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
-require plugin_dir_path(__FILE__) . 'includes/class-cozy-essential-addons.php';
+require plugin_dir_path( __FILE__ ) . 'includes/class-cozy-essential-addons.php';
 
 /**
  * Begins execution of the plugin.
@@ -80,8 +78,7 @@ require plugin_dir_path(__FILE__) . 'includes/class-cozy-essential-addons.php';
  *
  * @since    1.0.0
  */
-function run_cozy_essential_addons()
-{
+function run_cozy_essential_addons() {
 
 	$plugin = new Cozy_Essential_Addons();
 	$plugin->run();
