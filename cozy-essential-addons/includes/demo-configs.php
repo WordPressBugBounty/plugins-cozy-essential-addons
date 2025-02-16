@@ -1681,6 +1681,22 @@ function cozythemes_demo_importer_get_templates_lists($theme_slug)
                     'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-9/',
                     'plugins' => ''
                 ),
+                'saaslauncher-10' => array(
+                    'title' => esc_html__('Life Menterio', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('saaslauncher', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/free/10/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/free/10/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/free/10/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/free/10/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-10/',
+                    'plugins' => ''
+                ),
                 'saaslauncher-pro' => array(
                     'title' => esc_html__('SaasLauncher Pro', 'cozythemes-demo-importer'),/*Title*/
                     'is_pro' => true,  /*Premium*/
@@ -2159,6 +2175,156 @@ function cozythemes_demo_importer_get_templates_lists($theme_slug)
                     ),
                     'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/32/screenshot.png',
                     'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-32/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-33' => array(
+                    'title' => esc_html__('Minimal Agency', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/33/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/33/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/33/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/33/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-33/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-34' => array(
+                    'title' => esc_html__('SaaS Startup Agency', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/34/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/34/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/34/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/34/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-34/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-35' => array(
+                    'title' => esc_html__('Marketing Agency', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/35/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/35/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/35/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/35/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-35/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-36' => array(
+                    'title' => esc_html__('SaaS App/Products', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/36/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/36/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/36/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/36/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-36/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-37' => array(
+                    'title' => esc_html__('Decor & Furniture Store', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/37/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/37/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/37/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/37/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-37/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-38' => array(
+                    'title' => esc_html__('Fashion Store', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/38/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/38/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/38/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/38/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-38/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-39' => array(
+                    'title' => esc_html__('Jewellery Store', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/39/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/39/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/39/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/39/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-39/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-40' => array(
+                    'title' => esc_html__('Cosmetics & Skin Care', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/40/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/40/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/40/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/40/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-40/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-41' => array(
+                    'title' => esc_html__('Grocery Store', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/41/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/41/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/41/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/41/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-41/',
+                    'plugins' => ''
+                ),
+                'saaslauncher-pro-42' => array(
+                    'title' => esc_html__('Electronics & Gadget Store', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('saaslauncher pro'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/42/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/42/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/42/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/pro/42/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-pro-42/',
                     'plugins' => ''
                 ),
 
