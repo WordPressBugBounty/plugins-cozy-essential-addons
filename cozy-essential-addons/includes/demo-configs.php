@@ -2836,6 +2836,22 @@ function cozythemes_demo_importer_get_templates_lists($theme_slug)
                     'demo_url' => 'https://themedemos.cozythemes.com/woxstore/',
                     'plugins' => ''
                 ),
+                'woxstore-2' => array(
+                    'title' => esc_html__('WoxStore V2', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('woxstore', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/free/2/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/free/2/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/free/2/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/free/2/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/woxstore-2/',
+                    'plugins' => ''
+                ),
                 'woxstore-pro' => array(
                     'title' => esc_html__('WoxStore Pro', 'cozythemes-demo-importer'),/*Title*/
                     'is_pro' => true,  /*Premium*/
