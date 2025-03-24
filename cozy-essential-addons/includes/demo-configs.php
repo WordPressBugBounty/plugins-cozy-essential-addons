@@ -2972,6 +2972,36 @@ function cozythemes_demo_importer_get_templates_lists($theme_slug)
                     'demo_url' => 'https://themedemos.cozythemes.com/woxstore-pro-8/',
                     'plugins' => ''
                 ),
+                'woxstore-pro-9' => array(
+                    'title' => esc_html__('Fitwox', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('Fitness and Sports Wear', 'multipurpose'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/pro/9/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/pro/9/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/pro/9/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/pro/9/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/woxstore-pro-9/',
+                    'plugins' => ''
+                ),
+                'woxstore-pro-10' => array(
+                    'title' => esc_html__('BagStore', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('Bags Store', 'multipurpose'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/pro/10/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/pro/10/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/pro/10/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/pro/10/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/woxstore-pro-10/',
+                    'plugins' => ''
+                ),
             );
             break;
         default:
