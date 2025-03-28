@@ -1697,6 +1697,22 @@ function cozythemes_demo_importer_get_templates_lists($theme_slug)
                     'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-10/',
                     'plugins' => ''
                 ),
+                'saaslauncher-11' => array(
+                    'title' => esc_html__('SaasLauncher Light', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('saaslauncher', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/free/11/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/free/11/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/free/11/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/saaslauncher/free/11/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/saaslauncher-11/',
+                    'plugins' => ''
+                ),
                 'saaslauncher-pro' => array(
                     'title' => esc_html__('SaasLauncher Pro', 'cozythemes-demo-importer'),/*Title*/
                     'is_pro' => true,  /*Premium*/
@@ -3000,6 +3016,41 @@ function cozythemes_demo_importer_get_templates_lists($theme_slug)
                     ),
                     'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/woxstore/pro/10/screenshot.png',
                     'demo_url' => 'https://themedemos.cozythemes.com/woxstore-pro-10/',
+                    'plugins' => ''
+                ),
+            );
+            break;
+        case "grocefycart":
+            $demo_templates_lists = array(
+                'grocefycart' => array(
+                    'title' => esc_html__('GrocefyCart', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('grocefycart', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/grocefycart/free/1/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/grocefycart/free/1/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/grocefycart/free/1/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/grocefycart/free/1/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/grocefycart/',
+                    'plugins' => ''
+                ),
+                'grocefycart-pro' => array(
+                    'title' => esc_html__('GrocefyCart Pro', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('grocefycart pro', 'multipurpose'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/grocefycart/pro/1/content.json',
+                        'options' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/grocefycart/pro/1/options.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/grocefycart/pro/1/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/grocefycart/pro/1/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/grocefycart-pro/',
                     'plugins' => ''
                 ),
             );
