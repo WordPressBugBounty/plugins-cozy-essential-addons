@@ -24,7 +24,7 @@ $ct_patterns_media = array(
 
             <!-- wp:buttons {"className":"is-style-button-zoom-on-hover"} -->
             <div class="wp-block-buttons is-style-button-zoom-on-hover"><!-- wp:button {"gradient":"gradient-twelve","style":{"border":{"radius":"60px"},"spacing":{"padding":{"left":"40px","right":"40px","top":"16px","bottom":"16px"}},"typography":{"fontSize":"18px"}}} -->
-                <div class="wp-block-button has-custom-font-size" style="font-size:18px"><a class="wp-block-button__link has-gradient-twelve-gradient-background has-background wp-element-button" style="border-radius:60px;padding-top:16px;padding-right:40px;padding-bottom:16px;padding-left:40px">Get Started</a></div>
+                <div class="wp-block-button has-custom-font-size" style="font-size:18px"><a class="wp-block-button__link has-gradient-twelve-gradient-background has-background wp-element-button" style="border-radius:60px;padding-top:16px;padding-right:40px;padding-bottom:16px;padding-left:40px"><?php esc_html_e('Get Started', 'cozy-essential-addons') ?></a></div>
                 <!-- /wp:button -->
             </div>
             <!-- /wp:buttons -->
@@ -37,7 +37,7 @@ $ct_patterns_media = array(
     <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:6rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"className":"wp-embed-aspect-4-3 wp-has-aspect-ratio","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
         <div class="wp-block-group wp-embed-aspect-4-3 wp-has-aspect-ratio"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"8px","bottom":"8px","left":"24px","right":"24px"}},"border":{"radius":"60px","top":{"radius":"60px","width":"2px"},"right":{"radius":"60px","width":"2px"},"bottom":{"radius":"60px","width":"0px","style":"none"},"left":{"radius":"60px","width":"2px"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained"}} -->
             <div class="wp-block-group is-style-saaslauncher-gradient-border has-dark-shade-background-color has-background" style="border-radius:60px;border-top-width:2px;border-right-width:2px;border-bottom-style:none;border-bottom-width:0px;border-left-width:2px;padding-top:8px;padding-right:24px;padding-bottom:8px;padding-left:24px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"normal"} -->
-                <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color has-normal-font-size">Welcome to SaasLauncher</h5>
+                <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color has-normal-font-size"><?php esc_html_e('Welcome to SaasLauncher', 'cozy-essential-addons') ?></h5>
                 <!-- /wp:heading -->
             </div>
             <!-- /wp:group -->
@@ -46,11 +46,11 @@ $ct_patterns_media = array(
 
         <!-- wp:group {"className":"wp-embed-aspect-4-3 wp-has-aspect-ratio","layout":{"type":"constrained","contentSize":"740px"}} -->
         <div class="wp-block-group wp-embed-aspect-4-3 wp-has-aspect-ratio"><!-- wp:heading {"textAlign":"center","level":1,"className":"saaslauncher-big-title","style":{"typography":{"fontStyle":"normal","fontWeight":"800","fontSize":"64px","lineHeight":"1.2"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-            <h1 class="wp-block-heading has-text-align-center saaslauncher-big-title has-light-color-color has-text-color has-link-color" style="font-size:64px;font-style:normal;font-weight:800;line-height:1.2">Redefine Socializing <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">The Ultimate</mark> Experience</h1>
+            <h1 class="wp-block-heading has-text-align-center saaslauncher-big-title has-light-color-color has-text-color has-link-color" style="font-size:64px;font-style:normal;font-weight:800;line-height:1.2"><?php esc_html_e('Redefine Socializing', 'cozy-essential-addons') ?> <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color"><?php esc_html_e('The Ultimate', 'cozy-essential-addons') ?></mark> <?php esc_html_e('Experience', 'cozy-essential-addons') ?></h1>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-            <p class="has-text-align-center has-light-color-color has-text-color has-link-color">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+            <p class="has-text-align-center has-light-color-color has-text-color has-link-color"><?php esc_html_e('Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.', 'cozy-essential-addons') ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -58,7 +58,7 @@ $ct_patterns_media = array(
         <!-- wp:group {"className":"wp-embed-aspect-4-3 wp-has-aspect-ratio","style":{"spacing":{"margin":{"top":"28px","bottom":"0"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
         <div class="wp-block-group wp-embed-aspect-4-3 wp-has-aspect-ratio" style="margin-top:28px;margin-bottom:0"><!-- wp:buttons {"className":"is-style-button-zoom-on-hover","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
             <div class="wp-block-buttons is-style-button-zoom-on-hover" style="margin-top:0px"><!-- wp:button {"gradient":"gradient-twelve","style":{"border":{"radius":"60px"},"spacing":{"padding":{"left":"40px","right":"40px","top":"20px","bottom":"20px"}}},"fontSize":"medium"} -->
-                <div class="wp-block-button has-custom-font-size has-medium-font-size"><a class="wp-block-button__link has-gradient-twelve-gradient-background has-background wp-element-button" style="border-radius:60px;padding-top:20px;padding-right:40px;padding-bottom:20px;padding-left:40px">Start Free Trial</a></div>
+                <div class="wp-block-button has-custom-font-size has-medium-font-size"><a class="wp-block-button__link has-gradient-twelve-gradient-background has-background wp-element-button" style="border-radius:60px;padding-top:20px;padding-right:40px;padding-bottom:20px;padding-left:40px"><?php esc_html_e('Start Free Trial', 'cozy-essential-addons') ?></a></div>
                 <!-- /wp:button -->
             </div>
             <!-- /wp:buttons -->

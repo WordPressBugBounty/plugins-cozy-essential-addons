@@ -4,7 +4,7 @@ Tags: portfolios, testimonials, teams, faqs, demo-importer
 Requires PHP: 7.3.0
 Requires at least: 5.9
 Tested up to: 6.7
-Stable tag: 1.2.47
+Stable tag: 1.2.48
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,9 @@ If you are developer you can extend the code as your requirement, find the sampl
 
 
 == Changelog ==
+= 1.2.48 - April 03, 2025 = 
+* Added & Improved 50+ pre-built sections for SaasLauncher
+
 = 1.2.47 - March 28, 2025 = 
 * Added: New Demo importer for SaasLauncher
 * Added: Demo importer for GrocefyCart
