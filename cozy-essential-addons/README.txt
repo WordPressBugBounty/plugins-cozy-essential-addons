@@ -3,8 +3,8 @@ Contributors: CozyThemes
 Tags: portfolios, testimonials, teams, faqs, demo-importer
 Requires PHP: 7.3.0
 Requires at least: 5.9
-Tested up to: 6.7
-Stable tag: 1.2.48
+Tested up to: 6.8
+Stable tag: 1.2.49
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,10 @@ If you are developer you can extend the code as your requirement, find the sampl
 
 
 == Changelog ==
+= 1.2.49 - April 18, 2025 = 
+* SaasLauncher's patterns are organized categorically.
+* Tested up to 6.8
+
 = 1.2.48 - April 03, 2025 = 
 * Added & Improved 50+ pre-built sections for SaasLauncher
 

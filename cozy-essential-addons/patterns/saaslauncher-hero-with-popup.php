@@ -3,7 +3,7 @@
 /**
  * Title: PRO: Hero Section with Video Popup
  * Slug: cozy-essential-addons/saaslauncher-hero-with-popup
- * Categories: saaslauncher
+ * Categories: saaslauncher-hero
  */
 $ct_patterns_media = array(
     COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/play_icon.png',
