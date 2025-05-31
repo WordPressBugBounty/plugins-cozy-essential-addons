@@ -4,7 +4,7 @@ Tags: portfolios, testimonials, teams, faqs, demo-importer
 Requires PHP: 7.3.0
 Requires at least: 5.9
 Tested up to: 6.8
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,9 @@ If you are developer you can extend the code as your requirement, find the sampl
 
 
 == Changelog ==
+= 1.3.1 - May  31, 2025 = 
+* Added: New Pre-built Page Template for SaasLauncher Pro
+
 = 1.3.0 - May  25, 2025 = 
 * Added: New Demo importer for Orakus
 
