@@ -3,7 +3,7 @@
 /**
  * Title: PRO: Services Section with sticky style
  * Slug: cozy-essential-addons/modestra-services-1
- * Categories: about, services
+ * Categories: modestra
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|50","bottom":"var:preset|spacing|80"}},"position":{"type":""}},"layout":{"type":"constrained","contentSize":"1180px"}} -->

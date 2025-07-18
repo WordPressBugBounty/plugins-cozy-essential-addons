@@ -22,7 +22,6 @@ function ct_patterns_register_pattern_category()
 		'ReviveNews',
 		'Storemate',
 		'Modestra',
-		'SaasLauncher',
 		'Orakus',
 	);
 

@@ -3,7 +3,7 @@
 /**
  * Title: PRO: Job Board V2
  * Slug: cozy-essential-addons/saaslauncher-job-board
- * Categories: saaslauncher-hero
+ * Categories: saaslauncher
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/job-board","name":"Job Board / Vacancy Opening"},"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"6rem","bottom":"5rem"}}},"backgroundColor":"black-color","layout":{"type":"constrained","contentSize":"1180px"}} -->

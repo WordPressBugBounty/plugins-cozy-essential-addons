@@ -6,20 +6,20 @@
  * Categories: saaslauncher-about, saaslauncher-service
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"light-color","layout":{"type":"constrained","contentSize":"1080px"}} -->
-<div class="wp-block-group has-light-color-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"60px"}}},"layout":{"type":"constrained","contentSize":"680px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-about"],"patternName":"cozy-essential-addons/saaslauncher-wcu","name":"PRO: Why Choose Us"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1080px"}} -->
+<div class="wp-block-group has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"60px"}}},"layout":{"type":"constrained","contentSize":"680px"}} -->
     <div class="wp-block-group" style="margin-bottom:60px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-        <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"5px","bottom":"5px","left":"10px","right":"10px"}},"border":{"radius":"60px","width":"1px"}},"borderColor":"meta-color","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-border-color has-meta-color-border-color" style="border-width:1px;border-radius:60px;padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px"><!-- wp:heading {"textAlign":"center","level":5,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} -->
-                <h5 class="wp-block-heading has-text-align-center has-small-font-size" style="text-transform:uppercase"><?php esc_html_e('Why Choose Us', 'cozy-essential-addons') ?></h5>
+        <div class="wp-block-group"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"3px","bottom":"3px","left":"12px","right":"12px"}},"border":{"radius":"60px","width":"1px"}},"backgroundColor":"primary-shade-2","borderColor":"border-color","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group is-style-saaslauncher-gradient-border has-border-color has-border-color-border-color has-primary-shade-2-background-color has-background" style="border-width:1px;border-radius:60px;padding-top:3px;padding-right:12px;padding-bottom:3px;padding-left:12px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"textTransform":"none"}},"textColor":"light-color","fontSize":"small"} -->
+                <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color has-small-font-size" style="text-transform:none"><?php esc_html_e('Why Choose Us', 'cozy-essential-addons') ?></h5>
                 <!-- /wp:heading -->
             </div>
             <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
 
-        <!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"lineHeight":"1.3"}}} -->
-        <h1 class="wp-block-heading has-text-align-center" style="line-height:1.3"><?php esc_html_e('Passionate About Excellence in Quality and Service.', 'cozy-essential-addons') ?></h1>
+        <!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"lineHeight":"1.3"}},"fontSize":"xxx-large"} -->
+        <h1 class="wp-block-heading has-text-align-center has-xxx-large-font-size" style="line-height:1.3"><?php esc_html_e('Passionate About Excellence in Quality and Service.', 'cozy-essential-addons') ?></h1>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center"} -->

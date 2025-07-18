@@ -3,7 +3,7 @@
 /**
  * Title: PRO: About Us Alternate Content
  * Slug: cozy-essential-addons/modestra-about-alternate
- * Categories: about
+ * Categories: modestra
  */
 $ct_patterns_media = array(
     COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/modestra-assets/about_21.jpg',

@@ -3,7 +3,7 @@
 /**
  * Title: PRO: Latest Posts List with Ajax Load More
  * Slug: cozy-essential-addons/modestra-post-list-with-ajax
- * Categories: posts
+ * Categories: modestra
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"980px"}} -->

@@ -12,10 +12,10 @@ $ct_patterns_media = array(
     COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/team_4.jpg',
 );
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"light-color","layout":{"type":"constrained","contentSize":"1260px"}} -->
-<div class="wp-block-group has-light-color-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"48px"}}},"layout":{"type":"constrained","contentSize":"780px"}} -->
-    <div class="wp-block-group" style="margin-bottom:48px"><!-- wp:heading {"textAlign":"center"} -->
-        <h2 class="wp-block-heading has-text-align-center"><?php esc_html_e('Meet Our Team', 'cozy-essential-addons') ?></h2>
+<!-- wp:group {"metadata":{"categories":["saaslauncher-team"],"patternName":"cozy-essential-addons/saaslauncher-team-grid-with-details","name":"PRO: Team Grid with Details"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1180px"}} -->
+<div class="wp-block-group has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"48px"}}},"layout":{"type":"constrained","contentSize":"780px"}} -->
+    <div class="wp-block-group" style="margin-bottom:48px"><!-- wp:heading {"textAlign":"center","level":1,"fontSize":"xxx-large"} -->
+        <h1 class="wp-block-heading has-text-align-center has-xxx-large-font-size"><?php esc_html_e('Meet Our Team', 'cozy-essential-addons') ?></h1>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground"} -->
@@ -117,7 +117,7 @@ $ct_patterns_media = array(
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"small"} -->
-                    <p class="has-small-font-size" style="margin-top:0;margin-bottom:0">CEO - Loya Tech', 'cozy-essential-addons') ?></p>
+                    <p class="has-small-font-size" style="margin-top:0;margin-bottom:0"><?php esc_html_e('CEO - Loya Tech', 'cozy-essential-addons') ?></p>
                     <!-- /wp:paragraph -->
 
                     <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"16px","bottom":"0"}}}} -->

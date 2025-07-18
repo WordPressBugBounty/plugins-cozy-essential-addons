@@ -14,7 +14,7 @@ $ct_patterns_media = array(
     COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/team_6.jpg',
 );
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"7rem","bottom":"7rem"},"margin":{"top":"0","bottom":"0"}}},"gradient":"center-top-gradient","layout":{"type":"constrained","contentSize":"1180px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-team"],"patternName":"cozy-essential-addons/saaslauncher-team-grid","name":"PRO: Team Grid"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"7rem","bottom":"7rem"},"margin":{"top":"0","bottom":"0"}}},"gradient":"center-top-gradient","layout":{"type":"constrained","contentSize":"1180px"}} -->
 <div class="wp-block-group has-center-top-gradient-gradient-background has-background" style="margin-top:0;margin-bottom:0;padding-top:7rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:7rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0","top":"0rem","bottom":"0rem"},"margin":{"bottom":"84px"}}},"layout":{"type":"constrained","contentSize":"840px"}} -->
     <div class="wp-block-group" style="margin-bottom:84px;padding-top:0rem;padding-right:0;padding-bottom:0rem;padding-left:0"><!-- wp:heading {"textAlign":"center","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"light-color","fontSize":"xxx-large"} -->
         <h1 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-xxx-large-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Our Teams', 'cozy-essential-addons') ?></h1>
@@ -50,7 +50,7 @@ $ct_patterns_media = array(
                 <p class="has-text-align-left has-foreground-alt-color has-text-color has-link-color" style="margin-top:20px"><?php esc_html_e('Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore', 'cozy-essential-addons') ?></p>
                 <!-- /wp:paragraph -->
 
-                <!-- wp:social-links {"iconColor":"heading-color","iconColorValue":"#1E262A","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
+                <!-- wp:social-links {"iconColor":"black-color","iconColorValue":"#000000","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
                 <ul class="wp-block-social-links has-icon-color has-icon-background-color" style="margin-top:24px"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
                     <!-- wp:social-link {"url":"#","service":"x"} /-->
@@ -88,7 +88,7 @@ $ct_patterns_media = array(
                 <p class="has-text-align-left has-foreground-alt-color has-text-color has-link-color" style="margin-top:20px"><?php esc_html_e('Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore', 'cozy-essential-addons') ?></p>
                 <!-- /wp:paragraph -->
 
-                <!-- wp:social-links {"iconColor":"heading-color","iconColorValue":"#1E262A","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
+                <!-- wp:social-links {"iconColor":"black-color","iconColorValue":"#000000","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
                 <ul class="wp-block-social-links has-icon-color has-icon-background-color" style="margin-top:24px"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
                     <!-- wp:social-link {"url":"#","service":"x"} /-->
@@ -126,7 +126,7 @@ $ct_patterns_media = array(
                 <p class="has-text-align-left has-foreground-alt-color has-text-color has-link-color" style="margin-top:20px"><?php esc_html_e('Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore', 'cozy-essential-addons') ?></p>
                 <!-- /wp:paragraph -->
 
-                <!-- wp:social-links {"iconColor":"heading-color","iconColorValue":"#1E262A","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
+                <!-- wp:social-links {"iconColor":"black-color","iconColorValue":"#000000","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
                 <ul class="wp-block-social-links has-icon-color has-icon-background-color" style="margin-top:24px"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
                     <!-- wp:social-link {"url":"#","service":"x"} /-->
@@ -167,7 +167,7 @@ $ct_patterns_media = array(
                 <p class="has-text-align-left has-foreground-alt-color has-text-color has-link-color" style="margin-top:20px"><?php esc_html_e('Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore', 'cozy-essential-addons') ?></p>
                 <!-- /wp:paragraph -->
 
-                <!-- wp:social-links {"iconColor":"heading-color","iconColorValue":"#1E262A","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
+                <!-- wp:social-links {"iconColor":"black-color","iconColorValue":"#000000","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
                 <ul class="wp-block-social-links has-icon-color has-icon-background-color" style="margin-top:24px"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
                     <!-- wp:social-link {"url":"#","service":"x"} /-->
@@ -205,7 +205,7 @@ $ct_patterns_media = array(
                 <p class="has-text-align-left has-foreground-alt-color has-text-color has-link-color" style="margin-top:20px"><?php esc_html_e('Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore', 'cozy-essential-addons') ?></p>
                 <!-- /wp:paragraph -->
 
-                <!-- wp:social-links {"iconColor":"heading-color","iconColorValue":"#1E262A","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
+                <!-- wp:social-links {"iconColor":"black-color","iconColorValue":"#000000","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
                 <ul class="wp-block-social-links has-icon-color has-icon-background-color" style="margin-top:24px"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
                     <!-- wp:social-link {"url":"#","service":"x"} /-->
@@ -243,7 +243,7 @@ $ct_patterns_media = array(
                 <p class="has-text-align-left has-foreground-alt-color has-text-color has-link-color" style="margin-top:20px"><?php esc_html_e('Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore', 'cozy-essential-addons') ?></p>
                 <!-- /wp:paragraph -->
 
-                <!-- wp:social-links {"iconColor":"heading-color","iconColorValue":"#1E262A","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
+                <!-- wp:social-links {"iconColor":"black-color","iconColorValue":"#000000","iconBackgroundColor":"light-color","iconBackgroundColorValue":"#FFFFFE","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
                 <ul class="wp-block-social-links has-icon-color has-icon-background-color" style="margin-top:24px"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
                     <!-- wp:social-link {"url":"#","service":"x"} /-->

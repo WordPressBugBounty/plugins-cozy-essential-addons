@@ -3,7 +3,7 @@
 /**
  * Title: PRO: Latest Posts 2
  * Slug: cozy-essential-addons/modestra-posts-2
- * Categories: posts
+ * Categories: modestra
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->

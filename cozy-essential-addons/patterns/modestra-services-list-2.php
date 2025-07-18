@@ -3,7 +3,7 @@
 /**
  * Title: PRO: Services List 2
  * Slug: cozy-essential-addons/modestra-services-list-2
- * Categories: services
+ * Categories: modestra
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1180px"}} -->

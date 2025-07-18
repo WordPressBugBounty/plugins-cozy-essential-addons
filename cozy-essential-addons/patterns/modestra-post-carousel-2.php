@@ -3,7 +3,7 @@
 /**
  * Title: PRO: Latest Posts Carousel 2
  * Slug: cozy-essential-addons/modestra-post-carousel-2
- * Categories: posts
+ * Categories: modestra
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"7rem","left":"0","right":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->

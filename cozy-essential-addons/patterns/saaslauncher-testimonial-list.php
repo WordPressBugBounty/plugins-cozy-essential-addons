@@ -5,17 +5,18 @@
  * Slug: cozy-essential-addons/saaslauncher-testimonial-list
  * Categories: saaslauncher-testimonial
  */
-$ct_patterns_media = array(
-    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/rating_star.png',
-    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/team_2.jpg',
-    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/team_5.jpg',
-    COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/saaslauncher/team_6.jpg',
+$saaslauncher_url = trailingslashit(get_template_directory_uri());
+$saaslauncher_images = array(
+    $saaslauncher_url . 'assets/images/rating_star.png',
+    $saaslauncher_url . 'assets/images/team_2.jpg',
+    $saaslauncher_url . 'assets/images/team_3.jpg',
+    $saaslauncher_url . 'assets/images/team_23.jpg',
 );
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"6rem"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"light-color","layout":{"type":"constrained","contentSize":"980px"}} -->
-<div class="wp-block-group has-light-color-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:6rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"top":"0","bottom":"84px"}}},"layout":{"type":"constrained","contentSize":"680px"}} -->
-    <div class="wp-block-group" style="margin-top:0;margin-bottom:84px"><!-- wp:heading {"textAlign":"center"} -->
-        <h2 class="wp-block-heading has-text-align-center"><?php esc_html_e('Customer Reviews', 'cozy-essential-addons') ?></h2>
+<!-- wp:group {"metadata":{"categories":["saaslauncher-testimonial"],"patternName":"cozy-essential-addons/saaslauncher-testimonial-list","name":"PRO: Testimonials List"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"6rem"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"980px"}} -->
+<div class="wp-block-group has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:6rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"top":"0","bottom":"84px"}}},"layout":{"type":"constrained","contentSize":"680px"}} -->
+    <div class="wp-block-group" style="margin-top:0;margin-bottom:84px"><!-- wp:heading {"textAlign":"center","level":1,"fontSize":"xxx-large"} -->
+        <h1 class="wp-block-heading has-text-align-center has-xxx-large-font-size"><?php esc_html_e('Customer Reviews', 'cozy-essential-addons') ?></h1>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center"} -->
@@ -27,14 +28,14 @@ $ct_patterns_media = array(
     <!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"84px"}}}} -->
     <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"350px"} -->
         <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:350px"><!-- wp:image {"id":9357,"width":"350px","height":"349px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50%"},"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-            <figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url($ct_patterns_media[1]) ?>" alt="" class="wp-image-9357" style="border-radius:50%;object-fit:cover;width:350px;height:349px" /></figure>
+            <figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url($saaslauncher_images[1]) ?>" alt="" class="wp-image-9357" style="border-radius:50%;object-fit:cover;width:350px;height:349px" /></figure>
             <!-- /wp:image -->
         </div>
         <!-- /wp:column -->
 
         <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"big"} -->
-            <h4 class="wp-block-heading has-big-font-size" style="margin-top:0;margin-bottom:0"><?php esc_html_e('A Game-Changer for My Website!', 'cozy-essential-addons') ?></h4>
+        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"large"} -->
+            <h4 class="wp-block-heading has-large-font-size" style="margin-top:0;margin-bottom:0"><?php esc_html_e('A Game-Changer for My Website!', 'cozy-essential-addons') ?></h4>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph -->
@@ -50,8 +51,8 @@ $ct_patterns_media = array(
                 <p class="has-small-font-size"><?php esc_html_e('Marketing Co-ordinator', 'cozy-essential-addons') ?></p>
                 <!-- /wp:paragraph -->
 
-                <!-- wp:image {"id":12146,"width":"128px","height":"24px","scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
-                <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($ct_patterns_media[0]) ?>" alt="" class="wp-image-12146" style="object-fit:contain;width:128px;height:24px" /></figure>
+                <!-- wp:image {"id":2316,"width":"128px","height":"24px","scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
+                <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-2316" style="object-fit:contain;width:128px;height:24px" /></figure>
                 <!-- /wp:image -->
             </div>
             <!-- /wp:group -->
@@ -62,8 +63,8 @@ $ct_patterns_media = array(
 
     <!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"84px"}}}} -->
     <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"big"} -->
-            <h4 class="wp-block-heading has-big-font-size" style="margin-top:0;margin-bottom:0"><?php esc_html_e('Fast, Flexible, and Feature-Packed!', 'cozy-essential-addons') ?></h4>
+        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"large"} -->
+            <h4 class="wp-block-heading has-large-font-size" style="margin-top:0;margin-bottom:0"><?php esc_html_e('Fast, Flexible, and Feature-Packed!', 'cozy-essential-addons') ?></h4>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph -->
@@ -79,8 +80,8 @@ $ct_patterns_media = array(
                 <p class="has-small-font-size"><?php esc_html_e('Founder &amp; CEO', 'cozy-essential-addons') ?></p>
                 <!-- /wp:paragraph -->
 
-                <!-- wp:image {"id":12146,"width":"128px","height":"24px","scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
-                <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($ct_patterns_media[0]) ?>" alt="" class="wp-image-12146" style="object-fit:contain;width:128px;height:24px" /></figure>
+                <!-- wp:image {"id":2316,"width":"128px","height":"24px","scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
+                <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-2316" style="object-fit:contain;width:128px;height:24px" /></figure>
                 <!-- /wp:image -->
             </div>
             <!-- /wp:group -->
@@ -89,7 +90,7 @@ $ct_patterns_media = array(
 
         <!-- wp:column {"verticalAlignment":"center","width":"350px"} -->
         <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:350px"><!-- wp:image {"id":9356,"width":"350px","height":"349px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50%"},"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-            <figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url($ct_patterns_media[2]) ?>" alt="" class="wp-image-9356" style="border-radius:50%;object-fit:cover;width:350px;height:349px" /></figure>
+            <figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url($saaslauncher_images[2]) ?>" alt="" class="wp-image-9356" style="border-radius:50%;object-fit:cover;width:350px;height:349px" /></figure>
             <!-- /wp:image -->
         </div>
         <!-- /wp:column -->
@@ -99,14 +100,14 @@ $ct_patterns_media = array(
     <!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"84px"}}}} -->
     <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"350px"} -->
         <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:350px"><!-- wp:image {"id":9365,"width":"350px","height":"349px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50%"},"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-            <figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url($ct_patterns_media[3]) ?>" alt="" class="wp-image-9365" style="border-radius:50%;object-fit:cover;width:350px;height:349px" /></figure>
+            <figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url($saaslauncher_images[3]) ?>" alt="" class="wp-image-9365" style="border-radius:50%;object-fit:cover;width:350px;height:349px" /></figure>
             <!-- /wp:image -->
         </div>
         <!-- /wp:column -->
 
         <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"big"} -->
-            <h4 class="wp-block-heading has-big-font-size" style="margin-top:0;margin-bottom:0"><?php esc_html_e('The Best Investment for My Business', 'cozy-essential-addons') ?></h4>
+        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color","fontSize":"large"} -->
+            <h4 class="wp-block-heading has-heading-color-color has-text-color has-link-color has-large-font-size" style="margin-top:0;margin-bottom:0"><?php esc_html_e('The Best Investment for My Business', 'cozy-essential-addons') ?></h4>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph -->
@@ -122,8 +123,8 @@ $ct_patterns_media = array(
                 <p class="has-small-font-size"><?php esc_html_e('Product Manager', 'cozy-essential-addons') ?></p>
                 <!-- /wp:paragraph -->
 
-                <!-- wp:image {"id":12146,"width":"128px","height":"24px","scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
-                <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($ct_patterns_media[0]) ?>" alt="" class="wp-image-12146" style="object-fit:contain;width:128px;height:24px" /></figure>
+                <!-- wp:image {"id":2316,"width":"128px","height":"24px","scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
+                <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-2316" style="object-fit:contain;width:128px;height:24px" /></figure>
                 <!-- /wp:image -->
             </div>
             <!-- /wp:group -->

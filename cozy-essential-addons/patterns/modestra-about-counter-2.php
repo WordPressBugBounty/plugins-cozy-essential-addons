@@ -3,7 +3,7 @@
 /**
  * Title: PRO: About Us with Counter 2
  * Slug: cozy-essential-addons/modestra-about-counter-2
- * Categories: about
+ * Categories: modestra
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->

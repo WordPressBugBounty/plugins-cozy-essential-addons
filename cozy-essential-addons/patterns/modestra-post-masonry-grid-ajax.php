@@ -3,7 +3,7 @@
 /**
  * Title: PRO: Latest Posts Masonry Grid with Ajax
  * Slug: cozy-essential-addons/modestra-post-masonry-grid-ajax
- * Categories: posts
+ * Categories: modestra
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->

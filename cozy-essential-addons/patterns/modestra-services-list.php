@@ -3,7 +3,7 @@
 /**
  * Title: PRO: Services List
  * Slug: cozy-essential-addons/modestra-services-list
- * Categories: services
+ * Categories: modestra
  */
 $ct_patterns_media = array(
     COZY_ESSENTIAL_ADDONS_ASSETS_URL . 'admin/images/mb/about.jpg',
