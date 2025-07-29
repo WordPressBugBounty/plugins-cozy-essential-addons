@@ -23,6 +23,8 @@ function ct_patterns_register_pattern_category()
 		'Storemate',
 		'Modestra',
 		'Orakus',
+		'HomeLancer',
+		'Skoolversity',
 	);
 
 	if ($cozy_current_theme == 'FotaWP' || $cozy_parent_theme == 'FotaWP') {
@@ -124,7 +126,9 @@ function _ct_patterns_register_plugin_block_patterns()
 		'Storemate',
 		'Modestra',
 		'SaasLauncher',
-		'Orakus'
+		'Orakus',
+		'HomeLancer',
+		'Skoolversity'
 	);
 
 	// Return if neither 'FotaWP', 'Hello Agency', nor any theme in the list is active as the current or parent theme.

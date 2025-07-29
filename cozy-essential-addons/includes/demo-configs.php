@@ -3120,6 +3120,39 @@ function cozythemes_demo_importer_get_templates_lists($theme_slug)
                 ),
             );
             break;
+        case "homelancer":
+            $demo_templates_lists = array(
+                'homelancer' => array(
+                    'title' => esc_html__('Homelancer', 'cozy-essential-addons'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('CozyThemes', 'cozy-essential-addons'),    /*Author Name*/
+                    'keywords' => array('homelancer', 'cozy-essential-addons'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/free/1/content.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/free/1/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/free/1/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/homelancer/',
+                    'plugins' => ''
+                ),
+                'homelancer-pro' => array(
+                    'title' => esc_html__('Homelancer Pro', 'cozythemes-demo-importer'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('CozyThemes', 'cozythemes-demo-importer'),    /*Author Name*/
+                    'keywords' => array('homelancer pro', 'multipurpose'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/pro/1/content.json',
+                        'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/pro/1/widgets.json'
+                    ),
+                    'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/pro/1/screenshot.png',
+                    'demo_url' => 'https://themedemos.cozythemes.com/homelancer-pro/',
+                    'plugins' => ''
+                ),
+            );
+            break;
         default:
             $demo_templates_lists = array();
     endswitch;
