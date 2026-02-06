@@ -6,7 +6,7 @@
   display: none;
 }
 .importer-notice {
-  border-left: 3px solid #0ad2bb;
+  border-left: 3px solid #0c50ff;
   padding-left: 20px;
   color: #5566ca;
 }
@@ -23,18 +23,20 @@
   border: 0;
 }
 .ai-filter-tabs ul li.ai-filter-btn-active {
-  background: #d9f5f2;
+  background: #f8fffe;
   border-radius: 50px;
-  color: #0ad2bb;
+  color: #0c50ff;
 }
 .ai-filter-tabs ul li .ai-count,
 .ai-body .ai-actions.ai-sidebar .ai-count {
-  background: #0ad2bb;
+  background: #0c50ff;
   color: #fff;
 }
-.ai-import-available-categories ul.ai-import-fp-lists li.ai-fp-filter.ai-filter-btn-active {
+.ai-import-available-categories
+  ul.ai-import-fp-lists
+  li.ai-fp-filter.ai-filter-btn-active {
   border: 0;
-  background: #0ad2bb;
+  background: #0c50ff;
   color: #fff;
   border-radius: 40px;
 }
@@ -78,13 +80,13 @@
 .ai-item-footer-actions .button {
   line-height: 28px;
   height: 30px;
-  border-color: #0ad2bb;
-  color: #0ad2bb;
+  /* border-color: #0c50ff; */
+  /* color: #0c50ff; */
 }
 .ai-item-footer-actions .button.button-primary {
-  background: #0ad2bb;
-  border-color: #0ad2bb;
-  color: #fff;
+  background-color: #fff;
+  border-color: transparent;
+  color: #0c50ff;
 }
 .ai-item-footer-actions .button:hover,
 .ai-item-footer-actions .button.button-primary:hover {
@@ -112,4 +114,9 @@
 }
 .ai-import-available-categories ul.ai-import-fp-lists li.ai-fp-filter {
   border-radius: 40px;
+}
+
+/* Removing preview btn */
+.ai-item-footer-actions .button.ai-item-demo-link {
+  display: none !important;
 }
