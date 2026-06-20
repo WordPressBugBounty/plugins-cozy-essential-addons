@@ -18,16 +18,16 @@ $ct_patterns_media = array(
                     <div class="wp-block-group"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"100px"}}}} -->
                         <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
                             <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:heading {"textAlign":"left","level":1,"style":{"typography":{"textTransform":"uppercase","fontSize":"74px"},"spacing":{"margin":{"top":"10px","bottom":"24px"}},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-                                <h1 class="wp-block-heading has-text-align-left has-light-color-color has-text-color has-link-color" style="margin-top:10px;margin-bottom:24px;font-size:74px;text-transform:uppercase"><?php esc_html_e('Lavisto for Luxury', 'lavisto') ?></h1>
+                                <h1 class="wp-block-heading has-text-align-left has-light-color-color has-text-color has-link-color" style="margin-top:10px;margin-bottom:24px;font-size:74px;text-transform:uppercase"><?php esc_html_e('Lavisto for Luxury', 'cozy-essential-addons') ?></h1>
                                 <!-- /wp:heading -->
 
                                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-                                <p class="has-light-color-color has-text-color has-link-color"><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'lavisto') ?></p>
+                                <p class="has-light-color-color has-text-color has-link-color"><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cozy-essential-addons') ?></p>
                                 <!-- /wp:paragraph -->
 
                                 <!-- wp:buttons -->
                                 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"transparent","textColor":"light-color","style":{"border":{"radius":"0px","width":"1px"},"spacing":{"padding":{"left":"32px","right":"32px","top":"16px","bottom":"16px"}},"typography":{"fontSize":"18px"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"className":"is-style-button-hover-hard-black-shadow","fontFamily":"montagu-slab"} -->
-                                    <div class="wp-block-button has-custom-font-size is-style-button-hover-hard-black-shadow has-montagu-slab-font-family" style="font-size:18px"><a class="wp-block-button__link has-light-color-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-width:1px;border-radius:0px;padding-top:16px;padding-right:32px;padding-bottom:16px;padding-left:32px"><?php esc_html_e('Explore More', 'lavisto') ?></a></div>
+                                    <div class="wp-block-button has-custom-font-size is-style-button-hover-hard-black-shadow has-montagu-slab-font-family" style="font-size:18px"><a class="wp-block-button__link has-light-color-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-width:1px;border-radius:0px;padding-top:16px;padding-right:32px;padding-bottom:16px;padding-left:32px"><?php esc_html_e('Explore More', 'cozy-essential-addons') ?></a></div>
                                     <!-- /wp:button -->
                                 </div>
                                 <!-- /wp:buttons -->

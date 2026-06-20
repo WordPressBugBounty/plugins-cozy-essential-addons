@@ -255,8 +255,8 @@ class Cozy_Essential_Addons {
 			if ( $fileexists == '1' ) {
 				$walker_core_plugin = 'advanced-import/advanced-import.php';
 				$activation_url     = wp_nonce_url( 'plugins.php?action=activate&amp;plugin=' . $walker_core_plugin . '&amp;plugin_status=all&amp;paged=1&amp;s', 'activate-plugin_' . $walker_core_plugin );
-				$message            = '<p>' . __( 'CozyThemes Demo Importer Demo Import Feature is not working because you need to activate Advanced Import Plugin.' ) . '</p>';
-				$activate_msg       = __( 'Activate Advanced Import Now' );
+				$message            = '<p>' . __( 'CozyThemes Demo Importer Demo Import Feature is not working because you need to activate Advanced Import Plugin.', 'cozy-essential-addons' ) . '</p>';
+				$activate_msg       = __( 'Activate Advanced Import Now', 'cozy-essential-addons' );
 				$message           .= '<p>' . sprintf( '<a href="%s" class="button-primary">%s</a>', $activation_url, $activate_msg ) . '</p>';
 				echo '<div class="error"><p>' . $message . '</p></div>';
 			}

@@ -1,10 +1,10 @@
 === Theme Demo Importer and Patterns Library for CozyThemes - Cozy Essential Addons ===
 Contributors: CozyThemes
 Tags: portfolios, testimonials, teams, faqs, demo-importer
-Requires PHP: 7.3.0
+Requires PHP: 7.3
 Requires at least: 5.9
-Tested up to: 6.8
-Stable tag: 1.3.4
+Tested up to: 7.0
+Stable tag: 1.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,7 +42,8 @@ Yes, you can use this plugin for any theme to add custom post type.
 If you are developer you can extend the code as your requirement, find the sample code inside the plugins folder >  cozy-essential-addons/publics/shortcode.php
 
 == Changelog ==
-= 1.3.4 - October 13, 2025 = 
-* Fix: Assets URL for demos.
+= 1.3.5 - Jun 20, 2026 = 
+* Fix: Demos filtered for SaasLauncher.
+* Update: Compatibility with WP 7.0.
 
 [See changes for all the versions here.](https://plugins.svn.wordpress.org/cozy-essential-addons/trunk/changelog.txt)

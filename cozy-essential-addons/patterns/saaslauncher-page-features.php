@@ -9,7 +9,7 @@
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"backgroundColor":"black-color","layout":{"type":"constrained","contentSize":"100%"}} -->
 <main class="wp-block-group has-black-color-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
     <!-- wp:pattern {"slug":"cozy-essential-addons/saaslauncher-featured-section-2"} /-->
-    <!-- wp:pattern {"slug":"cozy-essential-addons/saaslauncher-features-grid-2"} /-->
+    <!-- wp:pattern {"slug":"saaslauncher/services-section"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/testimonials-card-layout"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/faq-accordion"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/cta-block-3"} /-->

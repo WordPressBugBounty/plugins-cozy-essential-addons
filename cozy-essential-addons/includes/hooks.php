@@ -82,7 +82,7 @@ class CozyThemes_Demo_Importer_Hooks {
 	 */
 	public function _ct_import_menu() {
 		if ( ! class_exists( 'Advanced_Import' ) ) {
-			$this->hook_suffix[] = add_theme_page( esc_html__( 'Demo Import', 'cozy-essential-addons' ), esc_html__( 'CT Demo Imports' ), 'manage_options', 'advanced-import', array( $this, 'demo_import_screen' ) );
+			$this->hook_suffix[] = add_theme_page( esc_html__( 'Demo Import', 'cozy-essential-addons' ), esc_html__( 'CT Demo Imports', 'cozy-essential-addons' ), 'manage_options', 'advanced-import', array( $this, 'demo_import_screen' ) );
 		}
 	}
 
@@ -145,7 +145,7 @@ class CozyThemes_Demo_Importer_Hooks {
 					<p class="plugin-install-notice"><?php esc_html_e( 'Clicking the button below will install and activate the Advanced Import plugin.', 'cozy-essential-addons' ); ?></p>
 
 					<a class="ads-gsm-btn button button-primary button-hero" href="#" data-name="" data-slug="" aria-label="<?php esc_html_e( 'Get started with the Theme', 'cozy-essential-addons' ); ?>">
-						<?php esc_html_e( 'Get Started', 'cozythemes-demo-importer' ); ?>
+						<?php esc_html_e( 'Get Started', 'cozy-essential-addons' ); ?>
 					</a>
 				</div>
 			</div>
@@ -284,6 +284,7 @@ class CozyThemes_Demo_Importer_Hooks {
 		} else {
 			$final_theme_name = $current_theme;
 		}
+		/* translators: %s: Theme name */
 		echo '<h4 class="importer-notice">' . sprintf( __( 'Thank you for choosing the %s theme. This quick demo import setup will help you configure your new website like theme demo. It will install the required WordPress plugins, default content and tell you a little about Help & Support options. It should only take less than 5 minutes.', 'cozy-essential-addons' ), $final_theme_name ) . '</h4>';
 
 		$theme_slug = cozythemes_demo_importer_get_current_theme_slug();

@@ -44,7 +44,7 @@ if ( cozythemes_demo_importer_premium_access() ) {
 
 if ( ! function_exists( 'cozythemes_demo_importer_scripts_loading' ) ) {
 	function cozythemes_demo_importer_scripts_loading() {
-		wp_enqueue_style( 'cdi-admin-style', COZY_ESSENTIAL_ADDONS_URL . 'admin/css/cdi-styles.css' );
+		wp_enqueue_style( 'cdi-admin-style', COZY_ESSENTIAL_ADDONS_URL . 'admin/css/cdi-styles.css', COZY_ESSENTIAL_ADDONS_VERSION );
 	}
 	add_action( 'admin_enqueue_scripts', 'cozythemes_demo_importer_scripts_loading' );
 }
@@ -57,6 +57,7 @@ function cdi_check_advanced_import_plugin() {
 
 function cdi_display_advanced_import_message() {
 	$message = sprintf(
+		/* translators: 1: Plugin Name, 2: Admin URL */
 		esc_html__( '"%1$s" requires "%2$s" must to be installed and activated to use one click demo import feature.', 'cozy-essential-addons' ),
 		'<strong>' . esc_html__( 'Cozy Essential Addons', 'cozy-essential-addons' ) . '</strong>',
 		'<strong><a href="' . get_admin_url() . 'plugin-install.php?tab=plugin-information&plugin=advanced-import&TB_iframe=true&width=600&height=550">' . esc_html__( 'Advanced Import', 'cozy-essential-addons' ) . '</a></strong>'

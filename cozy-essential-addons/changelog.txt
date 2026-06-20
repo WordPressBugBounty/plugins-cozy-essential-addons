@@ -1,3 +1,7 @@
+= 1.3.5 - Jun 20, 2026 = 
+* Fix: Demos filtered for SaasLauncher.
+* Update: Compatibility with WP 7.0.
+
 = 1.3.4 - October 13, 2025 = 
 * Fix: Assets URL for demos.
 

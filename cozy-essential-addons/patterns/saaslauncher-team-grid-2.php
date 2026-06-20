@@ -7,12 +7,12 @@
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
-    $saaslauncher_url . 'assets/images/team_1.jpg',
-    $saaslauncher_url . 'assets/images/team_2.jpg',
-    $saaslauncher_url . 'assets/images/team_3.jpg',
-    $saaslauncher_url . 'assets/images/team_21.jpg',
-    $saaslauncher_url . 'assets/images/team_22.jpg',
-    $saaslauncher_url . 'assets/images/team_23.jpg',
+    $saaslauncher_url . 'assets/images/person_1.jpg',
+    $saaslauncher_url . 'assets/images/person_2.jpg',
+    $saaslauncher_url . 'assets/images/person_3.jpg',
+    $saaslauncher_url . 'assets/images/person_4.jpg',
+    $saaslauncher_url . 'assets/images/person_5.jpg',
+    $saaslauncher_url . 'assets/images/person_6.jpg',
 );
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"7rem","bottom":"7rem"},"margin":{"top":"0","bottom":"0"}}},"gradient":"center-top-gradient","layout":{"type":"constrained","contentSize":"1180px"}} -->

@@ -8,9 +8,9 @@
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/rating_star.png',
-    $saaslauncher_url . 'assets/images/team_2.jpg',
-    $saaslauncher_url . 'assets/images/team_3.jpg',
-    $saaslauncher_url . 'assets/images/team_23.jpg',
+    $saaslauncher_url . 'assets/images/person_1.jpg',
+    $saaslauncher_url . 'assets/images/person_2.jpg',
+    $saaslauncher_url . 'assets/images/person_3.jpg',
 );
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher-testimonial"],"patternName":"cozy-essential-addons/saaslauncher-testimonial-list","name":"PRO: Testimonials List"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"6rem"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"980px"}} -->
