@@ -129,13 +129,32 @@ function _ct_patterns_register_plugin_block_patterns() {
 		'Skoolversity',
 	);
 
+	$theme_initials = array(
+		'hello-agency'    => 'ha',
+		'handyman-blocks' => 'hb',
+		'homelancer'      => 'homelancer',
+		'lavisto'         => 'lavisto',
+		'mighty-builders' => 'mb',
+		'magnewspress'    => 'mnp',
+		'modestra'        => 'modestra',
+		'mighty-plumbers' => 'mp',
+		'orakus'          => 'orakus',
+		'revivenews'      => 'revivenews',
+		'saaslauncher'    => 'saaslauncher',
+		'skoolversity'    => 'skoolversity',
+		'storemate'       => 'storemate',
+		'smartversity'    => 'sv',
+		'musicmantra'     => 'mm',
+		'reshape-block'   => 'rb',
+	);
+
 	// Return if neither 'FotaWP', 'Hello Agency', nor any theme in the list is active as the current or parent theme.
 	if (
 		! (
-			$cozy_current_theme === 'FotaWP' ||
-			$cozy_parent_theme === 'FotaWP' ||
-			$cozy_current_theme === 'Hello Agency' ||
-			$cozy_parent_theme === 'Hello Agency' ||
+			'FotaWP' === $cozy_current_theme ||
+			'FotaWP' === $cozy_parent_theme ||
+			'Hello Agency' === $cozy_current_theme ||
+			'Hello Agency' === $cozy_parent_theme ||
 			in_array( $cozy_current_theme, $ct_themes, true )
 		)
 	) {
@@ -146,6 +165,15 @@ function _ct_patterns_register_plugin_block_patterns() {
 		$files = glob( $dirpath . '*.php' );
 		if ( $files ) {
 			foreach ( $files as $file ) {
+				$filename = basename( $file, '.php' );
+				$parts    = explode( '-', $filename );
+
+				$current_theme_slug = wp_get_theme()->get( 'TextDomain' );
+
+				if ( ! isset( $theme_initials[ $current_theme_slug ] ) || $theme_initials[ $current_theme_slug ] !== $parts[0] ) {
+					continue;
+				}
+
 				$pattern_data = get_file_data( $file, $default_headers );
 
 				if ( empty( $pattern_data['slug'] ) ) {
