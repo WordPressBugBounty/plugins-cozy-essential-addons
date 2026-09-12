@@ -79,6 +79,11 @@ class Cozy_Essential_Addons {
 		$this->set_locale();
 		$this->define_admin_hooks();
 		$this->define_public_hooks();
+
+		if ( ! cozy_essential_addons_theme_compat() ) {
+			return;
+		}
+
 		include_once ABSPATH . 'wp-admin/includes/plugin.php';
 		$check_ai_pluign_status = is_plugin_active( 'advanced-import/advanced-import.php' );
 		if ( $check_ai_pluign_status ) {
@@ -249,6 +254,10 @@ class Cozy_Essential_Addons {
 
 
 	public function cozythemes_demo_importer_missing_notice() {
+		if ( ! cozy_essential_addons_theme_compat() ) {
+			return;
+		}
+		
 		$pluginList = cozythemes_demo_importer_plugin_check_activated();
 		if ( $pluginList != '1' ) {
 			$fileexists = cozythemes_demo_importer_plugin_file_exists();

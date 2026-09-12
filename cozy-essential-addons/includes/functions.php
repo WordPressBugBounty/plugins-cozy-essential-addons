@@ -1,4 +1,22 @@
 <?php
+function cozy_essential_addons_theme_compat() {
+	$status = true;
+
+	/*
+	$not_for_themes = array(
+		'homelancer',
+		'saaslauncher',
+	);
+
+		$theme = wp_get_theme()->get_stylesheet();
+
+	if ( in_array( $theme, $not_for_themes, true ) ) {
+		$status = false;
+	} */
+
+	return $status;
+}
+
 function cozythemes_demo_importer_get_theme_name() {
 	$current_theme = wp_get_theme();
 	return $current_theme->get( 'Name' );
@@ -56,6 +74,10 @@ function cdi_check_advanced_import_plugin() {
 }
 
 function cdi_display_advanced_import_message() {
+	if ( ! cozy_essential_addons_theme_compat() ) {
+		return;
+	}
+
 	$message = sprintf(
 		/* translators: 1: Plugin Name, 2: Admin URL */
 		esc_html__( '"%1$s" requires "%2$s" must to be installed and activated to use one click demo import feature.', 'cozy-essential-addons' ),

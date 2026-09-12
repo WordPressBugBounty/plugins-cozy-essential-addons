@@ -3,8 +3,8 @@ Contributors: CozyThemes
 Tags: portfolios, testimonials, teams, faqs, demo-importer
 Requires PHP: 7.3
 Requires at least: 5.9
-Tested up to: 7.0
-Stable tag: 1.3.6
+Tested up to: 7.1
+Stable tag: 1.3.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,11 +29,10 @@ To display post data in your site, please checkout [shortcodes][https://cozythem
 2. Extract File and placed it to the “/wp-content/plugins/” directory.
 3. Activate the plugin through the “Plugins” menu in WordPress.
 
-
 == Frequently Asked Questions ==
 
 = Is Cozy Essential Addons for Free? =
-Yes, it is 100% FreePlugin
+Yes, it is 100% free plugin.
 
 = Can I use this plugin with any theme? =
 Yes, you can use this plugin for any theme to add custom post type.
@@ -42,11 +41,8 @@ Yes, you can use this plugin for any theme to add custom post type.
 If you are developer you can extend the code as your requirement, find the sample code inside the plugins folder >  cozy-essential-addons/publics/shortcode.php
 
 == Changelog ==
-= 1.3.6 - Jun 29, 2026 = 
-* Fix: Theme based pattern filter.
-
-= 1.3.5 - Jun 20, 2026 = 
-* Fix: Demos filtered for SaasLauncher.
-* Update: Compatibility with WP 7.0.
+= 1.3.7 - Sep 12, 2026 = 
+* Fix: SaasLauncher/HomeLancer patterns removed from the plugin.
+* Update: Compatible with WP 7.1
 
 [See changes for all the versions here.](https://plugins.svn.wordpress.org/cozy-essential-addons/trunk/changelog.txt)

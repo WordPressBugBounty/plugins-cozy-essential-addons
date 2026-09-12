@@ -22,7 +22,6 @@ function ct_patterns_register_pattern_category() {
 		'Storemate',
 		'Modestra',
 		'Orakus',
-		'HomeLancer',
 		'Skoolversity',
 	);
 
@@ -123,16 +122,13 @@ function _ct_patterns_register_plugin_block_patterns() {
 		'ReviveNews',
 		'Storemate',
 		'Modestra',
-		'SaasLauncher',
 		'Orakus',
-		'HomeLancer',
 		'Skoolversity',
 	);
 
 	$theme_initials = array(
 		'hello-agency'    => 'ha',
 		'handyman-blocks' => 'hb',
-		'homelancer'      => 'homelancer',
 		'lavisto'         => 'lavisto',
 		'mighty-builders' => 'mb',
 		'magnewspress'    => 'mnp',
@@ -140,7 +136,6 @@ function _ct_patterns_register_plugin_block_patterns() {
 		'mighty-plumbers' => 'mp',
 		'orakus'          => 'orakus',
 		'revivenews'      => 'revivenews',
-		'saaslauncher'    => 'saaslauncher',
 		'skoolversity'    => 'skoolversity',
 		'storemate'       => 'storemate',
 		'smartversity'    => 'sv',
