@@ -20,8 +20,8 @@
  * @subpackage Cozy_Essential_Addons/admin
  * @author     CozyThemes <support@cozythemes.com>
  */
-class Cozy_Essential_Addons_Admin
-{
+class Cozy_Essential_Addons_Admin {
+
 
 	/**
 	 * The ID of this plugin.
@@ -45,19 +45,28 @@ class Cozy_Essential_Addons_Admin
 	 * Initialize the class and set its properties.
 	 *
 	 * @since    1.0.0
-	 * @param      string    $plugin_name       The name of this plugin.
-	 * @param      string    $version    The version of this plugin.
+	 * @param      string $plugin_name       The name of this plugin.
+	 * @param      string $version    The version of this plugin.
 	 */
-	public function __construct($plugin_name, $version)
-	{
+	public function __construct( $plugin_name, $version ) {
 
 		$this->plugin_name = $plugin_name;
-		$this->version = $version;
+		$this->version     = $version;
 		$this->cozy_essential_addons_admin();
+
+		add_action(
+			'admin_menu',
+			function () {
+				remove_submenu_page(
+					'themes.php',
+					'advanced-import-template'
+				);
+			},
+			999
+		);
 	}
 
-	private function cozy_essential_addons_admin()
-	{
+	private function cozy_essential_addons_admin() {
 		/**
 		 * Register custom post type
 		 */
@@ -73,8 +82,7 @@ class Cozy_Essential_Addons_Admin
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_styles()
-	{
+	public function enqueue_styles() {
 
 		/**
 		 * This function is provided for demonstration purposes only.
@@ -88,7 +96,7 @@ class Cozy_Essential_Addons_Admin
 		 * class.
 		 */
 
-		wp_enqueue_style($this->plugin_name, plugin_dir_url(__FILE__) . 'css/cozy-essential-addons-admin.css', array(), $this->version, 'all');
+		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/cozy-essential-addons-admin.css', array(), $this->version, 'all' );
 	}
 
 	/**
@@ -96,8 +104,7 @@ class Cozy_Essential_Addons_Admin
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_scripts()
-	{
+	public function enqueue_scripts() {
 
 		/**
 		 * This function is provided for demonstration purposes only.
@@ -111,6 +118,6 @@ class Cozy_Essential_Addons_Admin
 		 * class.
 		 */
 
-		wp_enqueue_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/cozy-essential-addons-admin.js', array('jquery'), $this->version, false);
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/cozy-essential-addons-admin.js', array( 'jquery' ), $this->version, false );
 	}
 }
