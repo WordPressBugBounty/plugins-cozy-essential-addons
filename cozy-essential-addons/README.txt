@@ -4,7 +4,7 @@ Tags: portfolios, testimonials, teams, faqs, demo-importer
 Requires PHP: 7.3
 Requires at least: 5.9
 Tested up to: 7.1
-Stable tag: 1.3.8
+Stable tag: 1.3.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,16 +31,25 @@ To display post data in your site, please checkout [shortcodes][https://cozythem
 
 == Frequently Asked Questions ==
 
-= Is Cozy Essential Addons for Free? =
-Yes, it is 100% free plugin.
+= What is Cozy Essential Addons? =
+Cozy Essential Addons is the starter site library for CozyThemes themes. It provides ready-to-import starter sites and theme-specific resources to help you build professional websites faster.
 
-= Can I use this plugin with any theme? =
-Yes, you can use this plugin for any theme to add custom post type.
+= Which CozyThemes' themes are supported? =
+Cozy Essential Addons supports CozyThemes' themes including SaasLauncher, JetNews Magazine, HomeLancer, ReviveNews, and more. New starter sites and theme support may be added over time.
 
-= Where can I find display code sample for custom post type? =
-If you are developer you can extend the code as your requirement, find the sample code inside the plugins folder >  cozy-essential-addons/publics/shortcode.php
+= How do I import a starter site? =
+Install and activate Cozy Essential Addons, choose a supported CozyThemes' theme, and select a starter site from the available library. Follow the import steps to quickly set up your website.
+
+= Do I need Cozy Essential Addons to use CozyThemes' themes? =
+No. You can use CozyThemes' themes without Cozy Essential Addons. However, the plugin provides convenient access to supported starter sites and theme-specific resources.
+
+= Is Cozy Essential Addons free? =
+Yes. Cozy Essential Addons is available as a free plugin for importing supported CozyThemes' starter sites and accessing the resources provided for those themes.
 
 == Changelog ==
+= 1.3.9 - Sep 22, 2026 = 
+* Update: CPTs from the plugin removed.
+
 = 1.3.8 - Sep 17, 2026 = 
 * Fix: Unregister Advanced Import menu.
 

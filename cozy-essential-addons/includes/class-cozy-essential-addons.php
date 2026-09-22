@@ -143,7 +143,6 @@ class Cozy_Essential_Addons {
 		 * including demo configs for themes of the cozythemes
 		 */
 		require_once plugin_dir_path( __DIR__ ) . 'includes/demo-configs.php';
-		require_once plugin_dir_path( __DIR__ ) . 'admin/cpt-options.php';
 
 		if ( cozythemes_demo_importer_premium_access() ) {
 			require_once plugin_dir_path( __DIR__ ) . 'includes/block-patterns.php';

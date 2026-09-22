@@ -67,15 +67,6 @@ class Cozy_Essential_Addons_Admin {
 	}
 
 	private function cozy_essential_addons_admin() {
-		/**
-		 * Register custom post type
-		 */
-		require_once COZY_ESSENTIAL_ADDONS_PATH . 'admin/cpt/cpt-init.php';
-
-		/**
-		 * Register meta box for custom post type
-		 */
-		require_once COZY_ESSENTIAL_ADDONS_PATH . 'admin/metabox/metaboxs.php';
 	}
 	/**
 	 * Register the stylesheets for the admin area.
