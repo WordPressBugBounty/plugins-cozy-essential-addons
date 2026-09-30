@@ -1,3 +1,7 @@
+= 1.3.10 - Sep 30, 2026 = 
+* Add: HomeLancer pro starter websites.
+* Add: Solar Business Kit free/pro starter websites.
+
 = 1.3.9 - Sep 22, 2026 = 
 * Update: CPTs from the plugin removed.
 

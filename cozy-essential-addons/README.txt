@@ -4,7 +4,7 @@ Tags: portfolios, testimonials, teams, faqs, demo-importer
 Requires PHP: 7.3
 Requires at least: 5.9
 Tested up to: 7.1
-Stable tag: 1.3.9
+Stable tag: 1.3.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,10 @@ No. You can use CozyThemes' themes without Cozy Essential Addons. However, the p
 Yes. Cozy Essential Addons is available as a free plugin for importing supported CozyThemes' starter sites and accessing the resources provided for those themes.
 
 == Changelog ==
+= 1.3.10 - Sep 30, 2026 = 
+* Add: HomeLancer pro starter websites.
+* Add: Solar Business Kit free/pro starter websites.
+
 = 1.3.9 - Sep 22, 2026 = 
 * Update: CPTs from the plugin removed.
 

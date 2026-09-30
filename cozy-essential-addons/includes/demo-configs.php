@@ -3121,7 +3121,7 @@ function cozythemes_demo_importer_get_templates_lists( $theme_slug ) {
 			break;
 		case 'homelancer':
 			$demo_templates_lists = array(
-				'homelancer'     => array(
+				'homelancer'       => array(
 					'title'          => esc_html__( 'Homelancer', 'cozy-essential-addons' ), /*Title*/
 					'is_pro'         => false,  /*Premium*/
 					'type'           => 'free',
@@ -3136,7 +3136,7 @@ function cozythemes_demo_importer_get_templates_lists( $theme_slug ) {
 					'demo_url'       => 'https://themedemos.cozythemes.com/homelancer/',
 					'plugins'        => '',
 				),
-				'homelancer-pro' => array(
+				'homelancer-pro'   => array(
 					'title'          => esc_html__( 'Homelancer Pro', 'cozy-essential-addons' ), /*Title*/
 					'is_pro'         => true,  /*Premium*/
 					'type'           => 'premium',
@@ -3147,6 +3147,68 @@ function cozythemes_demo_importer_get_templates_lists( $theme_slug ) {
 						'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/pro/1/widgets.json',
 					),
 					'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/pro/1/screenshot.png',
+					'demo_url'       => 'https://themedemos.cozythemes.com/homelancer-pro/',
+					'plugins'        => '',
+				),
+				'homelancer-pro-2' => array(
+					'title'          => esc_html__( 'Altus Architecture (PRO)', 'cozy-essential-addons' ), /*Title*/
+					'is_pro'         => true,  /*Premium*/
+					'type'           => 'premium',
+					'author'         => esc_html__( 'CozyThemes', 'cozy-essential-addons' ),    /*Author Name*/
+					'keywords'       => array( 'homelancer pro', 'architecture' ),  /*Search keyword*/
+					'template_url'   => array(
+						'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/pro/2/content.json',
+						'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/pro/2/widgets.json',
+					),
+					'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/pro/2/screenshot.png',
+					'demo_url'       => 'https://themedemos.cozythemes.com/homelancer-pro-2/',
+					'plugins'        => '',
+				),
+				'homelancer-pro-3' => array(
+					'title'          => esc_html__( 'Plumbing (PRO)', 'cozy-essential-addons' ), /*Title*/
+					'is_pro'         => true,  /*Premium*/
+					'type'           => 'premium',
+					'author'         => esc_html__( 'CozyThemes', 'cozy-essential-addons' ),    /*Author Name*/
+					'keywords'       => array( 'homelancer pro', 'plumbing' ),  /*Search keyword*/
+					'template_url'   => array(
+						'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/pro/3/content.json',
+						'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/pro/3/widgets.json',
+					),
+					'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/homelancer/pro/3/screenshot.png',
+					'demo_url'       => 'https://themedemos.cozythemes.com/homelancer-pro-3/',
+					'plugins'        => '',
+				),
+			);
+			break;
+
+		case 'solar-business-kit':
+			$demo_templates_lists = array(
+				'solar-business-kit'     => array(
+					'title'          => esc_html__( 'Solar Business Kit', 'cozy-essential-addons' ), /*Title*/
+					'is_pro'         => false,  /*Premium*/
+					'type'           => 'free',
+					'author'         => esc_html__( 'CozyThemes', 'cozy-essential-addons' ),    /*Author Name*/
+					'keywords'       => array( 'solar-business-kit', 'cozy-essential-addons' ),  /*Search keyword*/
+					'categories'     => array( 'free' ), /*Categories*/
+					'template_url'   => array(
+						'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/solar-business-kit/free/1/content.json',
+						'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/solar-business-kit/free/1/widgets.json',
+					),
+					'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/solar-business-kit/free/1/screenshot.png',
+					'demo_url'       => 'https://themedemos.cozythemes.com/solar-business-kit/',
+					'plugins'        => '',
+				),
+				'solar-business-kit-pro' => array(
+					'title'          => esc_html__( 'Solar Business Kit Pro', 'cozy-essential-addons' ), /*Title*/
+					'is_pro'         => true,  /*Premium*/
+					'type'           => 'premium',
+					'author'         => esc_html__( 'CozyThemes', 'cozy-essential-addons' ),    /*Author Name*/
+					'keywords'       => array( 'solar-business-kit pro' ),  /*Search keyword*/
+					'template_url'   => array(
+						'content' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/solar-business-kit/pro/1/content.json',
+						'widgets' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/solar-business-kit/pro/1/widgets.json',
+					),
+					'screenshot_url' => COZYTHEMES_DEMO_IMPORTER_SETUP_TEMPLATE_URL . '/solar-business-kit/pro/1/screenshot.png',
 					'demo_url'       => 'https://themedemos.cozythemes.com/homelancer-pro/',
 					'plugins'        => '',
 				),
