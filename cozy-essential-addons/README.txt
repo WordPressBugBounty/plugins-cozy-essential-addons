@@ -4,11 +4,11 @@ Tags: portfolios, testimonials, teams, faqs, demo-importer
 Requires PHP: 7.3
 Requires at least: 5.9
 Tested up to: 7.1
-Stable tag: 1.3.11
+Stable tag: 1.3.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Cozy Essential Addons is the free WordPress plugin for Custom post type and provides basic skeletal for custom post type list.
+Companion plugin for CozyThemes — one-click demo imports, ready-made block patterns, and theme-specific enhancements for fast site building.
 
 == Description ==
 
@@ -47,6 +47,9 @@ No. You can use CozyThemes' themes without Cozy Essential Addons. However, the p
 Yes. Cozy Essential Addons is available as a free plugin for importing supported CozyThemes' starter sites and accessing the resources provided for those themes.
 
 == Changelog ==
+= 1.3.12 - Oct 05, 2026 = 
+* Add: HomeLancer pro starter websites.
+
 = 1.3.11 - Oct 02, 2026 = 
 * Add: HomeLancer free starter websites.
 
